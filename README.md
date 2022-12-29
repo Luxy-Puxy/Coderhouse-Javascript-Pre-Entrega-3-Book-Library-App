@@ -3,10 +3,11 @@
 This is a library app that I created as a project for [Coderhouse](https://www.coderhouse.com.pe/).
 
 
-Changes:
+Updates for Entrega 3:
 - Objects
 - Local Storage .json
 - Alerts now changed to div massages.
+- Events for on deletion confirmation.
 
 -------------------------------------------
 

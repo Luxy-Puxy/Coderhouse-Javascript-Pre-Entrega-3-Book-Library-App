@@ -1,0 +1,96 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #555;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li:hover {
+    background-color: #f2f2f2;
+}
+
+#error-message {
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  #confirm-message {
+    display: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  #confirm-message p {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  #confirm-message button {
+    margin-right: 20px;
+  }
+  

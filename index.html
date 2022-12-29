@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Book List</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <h1>Book Collection</h1>
+  <h2>by Jean Pierre Alcandre</h2>
+  <h3>Project for coderhouse "Pre-entrega "</h3>
+
+  <p>Double click book on list to delete</p>
+
+  <form>
+    <label for="book-name">Book Name:</label>
+    <input type="text" id="book-name">
+    <label for="book-author"> Author:</label>
+    <input type="text" id="book-author">
+    <label for="book-genre"> Genre:</label>
+    <input type="text" id="book-genre">
+    <button type="button" onclick="addBook()">Add Book</button>
+  </form>
+
+  <div id="error-message"></div>
+  <div id="confirm-message">
+    <p>Are you sure you want to delete this book? This cant be undone</p>
+    <button type="button" onclick="confirmDelete()">Yes</button>
+    <button type="button" onclick="cancelDelete()">No</button>
+  </div>
+
+  <ul id="book-list"></ul>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
